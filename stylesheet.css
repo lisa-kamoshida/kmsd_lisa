@@ -1,0 +1,38 @@
+.親{
+	background-color: lightblue;
+	padding:20px;
+	
+/* 	padding:　　　　;上右下左と時計回りに指定可能
+	全部同じ数値なら一つで良いのだ！ */
+	
+	& .子{
+		
+/* 		&とピリオドの間のスペース、絶対必要よ */
+	background-color: steelblue; 
+	}
+}
+
+
+
+/* 縦並び */
+.動物{
+/* 	ブロック要素化することで縦並びになる */
+	display:block;
+	margin:0px auto 0px auto;
+}
+
+.演習１{
+	background:lavender;
+	margin:50px 0px ; 
+ 	padding: 20px;
+	
+	 font-size:25px;
+	 font-weight:bold;
+	 color:navy;
+	
+& .火山{
+	width:100%;
+	display:block;
+	
+}}
+
